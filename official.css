@@ -1,0 +1,325 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+#header-nav{
+    background-color: rgb(4, 4, 56);
+    /*border-radius: 50px;*/
+    height: 100px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+#logo-img{
+    background: url('logo-img1.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    margin:  20px 10px 20px 0px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.navbar-brand{
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-family: cursive;
+}
+.navbar-brand h6{
+    font-family: fantasy;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p{
+    color: white;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.navbar-brand p span{
+    vertical-align: middle;
+}
+.navbar-toggler{
+   background-color: black;
+    width: 33px;
+    height: 33px;
+    border-radius: 8px;
+    position: relative;
+    float: right;
+    /*margin-top: 22.5px;
+    margin-bottom: 22.5px;
+    margin-left: 13.5px;
+    margin-right: 40px;*/
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 0px 0px 5px 0px;
+    font-weight: bold;
+}
+.navbar-toggler:hover{
+    font-size: 1.5em;
+}
+#nav-list{
+    align-items: flex-end;
+    margin-right: 10px;  
+}
+.nav-link {
+    color: white;
+    text-align: center;
+    background-color: rgb(4, 4, 56);
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 50px; 
+}
+.nav-item a:hover{
+    background-color: rgb(4, 4, 56);
+    font-weight: bolder;
+}
+.navbar-header button.navbar-toggler{
+    clear: both;
+    margin-top: -30;
+}
+#nav-icon{
+    color: white;
+    background-color: black;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid white;
+}
+#nav-icon:hover{
+    text-decoration: none;
+    font-size: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+#nav-icon a{
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+}
+#real {
+	font-size: 20px;
+	color: white;
+    margin: 0;
+    margin-top: -10px;
+}
+#refl {
+    font-size:20px;
+    color: white;
+    margin-top: -10px;
+	-moz-transform: scaleY(-1);
+       -o-transform: scaleY(-1);
+       -webkit-transform: scaleY(-1);
+       transform: scaleY(-1);
+	-webkit-mask-image: -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(20%, transparent), to(rgba(0, 0, 0, 0.5)));
+}
+#tile1, #tile2, #tile3{
+    height: 250px;
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: cursive;
+}
+#tile1:hover, #tile2:hover, #tile3:hover{
+    box-shadow: 0 1px 5px 3px white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+#tile1{
+    background: url('img2.png');
+    background-position: center;
+    text-decoration: none;
+}
+#tile2{
+    background: url('logo-img.png');
+    background-position: center;
+    text-decoration: none;
+}
+#tile3{
+    background: url('img.png') no-repeat;
+    /*background: url('logo-img1.png') no-repeat;*/
+    background-position: center;
+    text-decoration: none;
+}
+#tile1 span, #tile2 span, #tile3 span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: .8;
+    text-align: center;
+}
+.panel-footer{
+    margin-top: 30px;
+    border-top: 2px solid grey;
+    background-color: rgb(4, 4, 56);
+}
+#Contact ,#address, #map{
+    color:grey;
+    margin-top: 20px;
+}
+#Contact:hover ,#address:hover, #map:hover{
+    color: white;
+}
+hr{
+    border: .1px solid grey;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 20px;
+    text-shadow: 3px 3px 3px grey;
+}
+#Mon, #Tues, #Wed, #Thurs, #Fri, #Sat, #Sun{
+    height: 180px;
+    width:100%;
+    margin-top: 30px;
+    /*margin-bottom: 20px;*/
+    position: relative;
+    overflow: hidden;
+    box-shadow:  0 1px 5px 3px grey;
+    text-align: center;
+    padding: 10px;
+}
+
+#Mon a, #Tues a, #Wed a, #Thurs a, #Fri a, #Sat a, #Sun a{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    right: 0;
+    font-size: 25px;
+    background-color: rgb(4, 4, 56);
+    opacity: .8;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url('img1-lg.png') no-repeat;
+      alt: Picture;
+      height: 581px;
+      box-shadow: 0px 0px 15px white;
+      margin-top: 35px;
+      border: 1px solid white;
+    }
+    .navbar-toggler{
+        margin-left: -10px;
+    }
+    .nav-link{
+        margin-right: 70px;
+    }
+  }
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .container .jumbotron {
+        background: url('img1-md.png') no-repeat;
+        alt: Picture;
+        height: 490px;
+        box-shadow: 0px 0px 15px white;
+        margin-top: 35px;
+        border: 1px solid white;
+    }
+    #nav-icon{
+        width: 10%;
+    }
+
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container .jumbotron {
+      background: url('img1-sm.png') no-repeat;
+      height: 375px;
+      margin-top: 30px;
+      padding: 0;
+      alt: Picture;
+      box-shadow: 0 0 15px white;
+      border: 1px solid white;
+    } 
+    .navbar-brand {
+        margin-top: 20px;
+        height: 80px;
+      }
+      .navbar-brand h6 { /* name */
+        margin-top: 10px;
+        font-size: 1.5vw; /* 1vw = 1% of viewport width */
+        margin-left: -10px;
+      }
+      .container ,.navbar-header{
+          margin-top: 0px;
+      }
+      .navbar-brand p { /*cert */
+        font-size: 1.5vw;
+        margin-top: 12px;
+      }
+      .navbar-brand p img { /* Star*/
+        height: 20px;
+      }
+      .navbar-toggler{
+        margin-right: -20px;
+    } 
+    .nav-item{
+        margin-right: 0px;
+    }  
+    #Mon, #Tues, #Wed, #Thurs, #Fri, #Sat, #Sun{
+        height: 200px;
+    }
+}
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    .navbar-brand {
+      margin-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h6 { /* name */
+        margin-top: 10px;
+      font-size: 2.6vw; /* 1vw = 1% of viewport width */
+      margin-left: -10px;
+    }
+    .navbar-header{
+        margin-top: 10px;
+        margin-right: -30px;
+    }
+    .navbar-brand p { /*cert */
+      font-size: 2.6vw;
+      margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star*/
+      height: 20px;
+    }
+    .container .jumbotron {
+      margin-top: 30px;
+      padding: 0;
+      background: url('img1-xs.png') no-repeat;
+      alt: Picture;
+      height: 304px;
+      box-shadow: 0 0 15px white;
+      border: 1px solid white;
+    }
+    .navbar-toggler{
+        margin-right: -3vw;
+    } 
+    .nav-item{
+        margin-right: 0px;
+    } 
+    .panel-footer{
+        text-align: center;
+    }
+}
